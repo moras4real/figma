@@ -1,4 +1,4 @@
-import style from '../styles/Navbar.module.css'
+
 
 const Section3 = () => {
   return (

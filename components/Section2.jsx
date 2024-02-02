@@ -25,38 +25,38 @@ const Section2 = () => {
             <div className={`container-fluid d-flex ${isSmallScreen ? 'flex-column' : 'flex-row'}`}>
 
             {isSmallScreen && (
-                <div className={`carousel slide carousel-fade ${isSmallScreen ? 'col-12' : 'col-md-6 pe-5'}`} data-bs-ride="carousel" data-bs-interval="1000">
+                <div className={`carousel slide carousel-fade ${isSmallScreen ? 'col-12' : 'col-md-6 pe-5'}`} data-bs-ride="carousel" data-bs-interval="3000">
                     <div class="carousel-inner">
                         <div class="carousel-item   active">
-                            <img src="secone.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secone.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="sectwo.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/sectwo.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="secthree.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secthree.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="secfour.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secfour.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="secfive.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secfive.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="secsix.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secsix.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="secseven.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secseven.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="seceight.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/seceight.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
 
@@ -83,38 +83,38 @@ const Section2 = () => {
 
 
                 {!isSmallScreen && (
-                <div className={`carousel slide carousel-fade ${isSmallScreen ? 'col-12' : 'col-md-6 pe-5'}`} data-bs-ride="carousel" data-bs-interval="1000">
+                <div className={`carousel slide carousel-fade ${isSmallScreen ? 'col-12' : 'col-md-6 pe-5'}`} data-bs-ride="carousel" data-bs-interval="3000">
                     <div class="carousel-inner">
                         <div class="carousel-item   active">
                             <Image src="/secone.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="sectwo.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/sectwo.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="secthree.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secthree.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="secfour.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secfour.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="secfive.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secfive.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="secsix.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secsix.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="secseven.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/secseven.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
                         <div class="carousel-item">
-                            <img src="seceight.png" class="d-block w-100" width="450" height="450" alt="" />
+                            <Image src="/seceight.png" class="d-block w-100" width="450" height="450" alt="" />
                         </div>
 
 

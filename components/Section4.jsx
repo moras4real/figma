@@ -23,7 +23,7 @@ const Section4 = () => {
   return (
     <>
       <div className={`container ps-5 d-flex ${isSmallScreen ? 'flex-column' : 'gap-5'}`}>
-        <button className={`${style.ssfour} btn pt-5 pb-5 ps-3 pe-3`} type="submit">
+        <button className={`${style.ssfour} btn pt-5 pb-5 ps-3 pe-3`} >
           <Image src="/secone.png" alt="" width="150" height="150" />
           <h6 className="text-white mt-3">Our app contains the</h6>
           <h6 className="text-white">fundamental teaching of</h6>
