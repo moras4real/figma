@@ -32,16 +32,17 @@ const Navbar = () => {
             <div className={style.hor}>About Us</div>             
           </div>
           
-              <form className={isSmallScreen ? '' : 'd-flex gap-2'} >
-                  <button className="btn btn-outline-primary pt-2 pb-2 ps-5 pe-5 bg-white">
+              
+              <form className={`d-${isSmallScreen ? 'flex' : 'none'}`}>
+                  <button className="btn btn-outline-primary pt-1 pb-1 ps-5 pe-5 bg-white">
                     <Link className="text-decoration-none" href="/signup">
-                      <h3>Sign Up</h3>
+                      <h4>Sign-Up</h4>
                     </Link>
                   </button>
 
-                  <button className="btn btn-primary pt-2 pb-2 ps-5 pe-5 mt-1" type="submit">
+                  <button className="btn btn-primary pt-1 pb-1 ps-5 pe-5 mt-1" type="submit">
                     <Link className="text-decoration-none" href="/signin">
-                      <h3 className="text-white ps-2 pe-2">Sign In</h3>
+                      <h4 className="text-white ps-2 pe-2">Sign-In</h4>
                     </Link>
                   </button>
               </form>
